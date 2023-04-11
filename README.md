@@ -1,0 +1,2 @@
+# loadingPage-jogos
+ loading-page
