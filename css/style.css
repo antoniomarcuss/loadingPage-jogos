@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    background-color:rgb(252, 252, 252);
+    height: 80px;
+    
+  }
+  
+  .logo {
+    margin-right: auto; /* Define o ícone para a esquerda */
+    width: 100%;
+    height: auto;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav i {
+    margin: 3px;
+    border: 1px solid rgba(74, 73, 73, 0.18);
+    padding: 9a;
+    border-radius: 100%;
+    text-align: center;
+    width: 43px;
+    transition: 0.5s;
+    
+  }
+
+  nav i:hover{
+    transition: 0.5s;
+    border: 1px solid  rgba(88, 88, 88, 0.482);
+    cursor: pointer;
+    
+  }
+ 
+  .anunciar {
+   width: 100px;
+   padding: 5px;
+   text-align: center;
+   border-radius: 20px;
+   margin-right: 10px;
+   background-color: #007BFF;
+   color: white;
+   cursor: pointer;
+}
+
+#container{
+    background-color: rgb(255, 255, 255);
+    display: f;
+}
+
+.compre{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.compre h1{
+    font-size: 2em;
+    color: rgb(58, 58, 58);
+    text-shadow: 1px 0px rgb(0, 0, 0);
+}
+
+.compre h4{
+    color:#007bffe4 ;
+}
+
+.compre p{
+    background-color:#007BFF ;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.compre p:hover{
+    background-color: #008cff;
+    cursor: pointer;
+}
+
+.h1categoria{
+    margin-top: 80px;
+    color: rgb(78, 78, 78);
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+section.categoria{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: rgb(67, 67, 67);
+}
+
+section.categoria2{
+    display: none;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: rgb(67, 67, 67);
+}
+
+
+
+.plataforma{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: rgb(67, 67, 67);
+}
+.jogos img{
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.jogos img:hover{
+    margin-top: 5px;
+    transition: 0.3s;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.107);
+}
+
+.jogos p{
+    text-align: center; 
+    
+   
+}
+.jogos p:hover{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+}
+
+ hr{
+    width: 80px;
+    height: 3px;
+    margin-top: 40px;
+    background-color: rgba(116, 114, 114, 0.178);
+    border: none;
+}
+
+.verCategoria{
+    margin-top: 30px;
+    color: rgb(87, 87, 87);
+    font-size: 1em;
+}
+.verCategoria:hover{
+    color: #007BFF;
+    cursor: pointer;
+}
+
+
+
+.h1Plataforma{
+    margin-top: 50px;
+    color: rgb(78, 78, 78);
+    font-size: 1.6em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.plataforma a{
+    text-decoration: none;
+}
+
+.plataforma p {
+    color: rgb(78, 78, 78);
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

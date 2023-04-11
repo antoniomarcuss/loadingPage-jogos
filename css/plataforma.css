@@ -1,0 +1,46 @@
+*{
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+h1{
+    text-shadow: 1px 1px black;
+    color: rgb(70, 70, 70);
+}
+
+.playstation,.xbox,.steam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: rgb(45, 45, 45);
+}
+
+
+
+.jogos img{
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.jogos img:hover{
+    margin-top: 0px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.107);
+}
+
+.jogos p{
+    text-align: center; 
+    
+   
+}
+.jogos p:hover{
+    transition: 0.5s;
+    cursor: pointer;
+}

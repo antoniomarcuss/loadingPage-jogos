@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@media screen and (min-width:600px) and (max-width:768px) {
+
+    .jogos img{
+        width: 150px;
+        height: 190px;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    header {
+        height: 150px;
+    }
+
+    nav i{
+        width: 60px;
+        padding: 15px;
+    }
+
+    .anunciar{
+        width: 200px;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    .compre {
+        font-size: 1.5em;
+    }
+
+    .compre p{
+        width: 270px;
+        padding: 20px;
+    }
+
+    .h1categoria{
+        font-size: 2em;
+    }
+
+    hr{
+        width: 30%;
+       
+    }
+
+    .jogos p{
+        font-size: 1.7em;
+    }
+
+    .verCategoria{
+        font-size: 1.9em;
+    }
+
+    .h1Plataforma{
+        font-size: 2em;
+    }
+
+    .jogos img{
+        width: 240px;
+        height:300px;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    header {
+        height: 100px;
+    }
+
+    nav i{
+        width: 40px;
+        padding: 6px;
+    }
+
+    .anunciar{
+        width: 150px;
+    }
+
+    .compre {
+        font-size: 1.3em;
+    }
+
+    .compre p{
+        width: 270px;
+        padding: 10px;
+    }
+
+    .h1categoria{
+        font-size: 1.5em;
+    }
+
+    hr{
+        width: 30%;
+       
+    }
+
+    .jogos p{
+        font-size: 1.2em;
+    }
+
+    .verCategoria{
+        font-size: 1.4em;
+    }
+
+    .h1Plataforma{
+        font-size: 2em;
+    }
+
+
+    .jogos img{
+        width: 210px;
+        height: 260px;
+    }
+}
