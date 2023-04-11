@@ -1,69 +1,74 @@
 @charset "UTF-8";
 
-@media screen and (min-width:600px) and (max-width:768px) {
+@media screen and (min-width:400px) {
 
-    .jogos img{
-        width: 150px;
-        height: 190px;
-    }
+   .jogos img{
+    width: 100px;
+    height: 140px;
+   }
 
 
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
+
+    .jogos img{
+        width: 150px;
+        height: 190px;
+       }
  
     nav i{
-        width: 60px;
-        padding: 15px;
+        width: 40px;
+        padding: 8px;
     }
 
     .anunciar{
-        width: 200px;
-        padding: 10px;
-        font-size: 1.2em;
+        width: 150px;
+        padding: 5px;
+        font-size: 1.0em;
     }
 
     .compre {
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 
     .compre p{
-        width: 270px;
-        padding: 20px;
+        width: 250px;
+        padding: 15px;
     }
 
     .h1categoria{
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     hr{
         width: 30%;
-       
     }
 
     .jogos p{
-        font-size: 1.7em;
+        font-size: 1.1em;
     }
 
     .verCategoria{
-        font-size: 1.9em;
+        font-size: 1.2em;
     }
 
     .h1Plataforma{
         font-size: 2em;
     }
 
-    .jogos img{
-        width: 240px;
-        height:300px;
-    }
 }
 
 @media screen and (min-width:992px) {
 
+    .jogos img{
+        width: 170px;
+        height: 210px;
+       }
+
     nav i{
-        width: 60px;
-        padding: 15px;
+        width: 50px;
+        padding: 10px;
     }
 
     .anunciar{
@@ -73,7 +78,7 @@
     }
 
     .compre {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     .compre p{
@@ -91,19 +96,16 @@
     }
 
     .jogos p{
-        font-size: 1.7em;
+        font-size: 1.4em;
     }
 
     .verCategoria{
-        font-size: 1.9em;
+        font-size: 1.6em;
     }
 
     .h1Plataforma{
         font-size: 2em;
     }
 
-    .jogos img{
-        width: 240px;
-        height:300px;
-    }
+
 }

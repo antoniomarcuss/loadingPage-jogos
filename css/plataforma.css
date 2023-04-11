@@ -2,6 +2,8 @@
     font-family: 'Poppins', Arial, sans-serif;
 }
 
+
+
 h1{
     text-shadow: 1px 1px black;
     color: rgb(70, 70, 70);
@@ -13,13 +15,14 @@ h1{
     justify-content: space-evenly;
     font-weight: bold;
     color: rgb(45, 45, 45);
+    margin-bottom: 30px;
 }
 
 
 
 .jogos img{
-    width: 200px;
-    height: 250px;
+    width: 90px;
+    height: 120px;
     margin: 5px;
     border-radius: 10px;
     border: none;
@@ -43,4 +46,30 @@ h1{
 .jogos p:hover{
     transition: 0.5s;
     cursor: pointer;
+}
+
+@media screen and (min-width:400px) {
+
+    .jogos img{
+     width: 110px;
+     height: 140px;
+    }
+ 
+ 
+ }
+
+ @media screen and (min-width:768px) and (max-width:992px) {
+
+    .jogos img{
+        width: 150px;
+        height: 190px;
+       }
+}
+
+ @media screen and (min-width:992px) {
+
+    .jogos img{
+        width: 170px;
+        height: 210px;
+       }
 }
