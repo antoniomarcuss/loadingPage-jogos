@@ -5,8 +5,11 @@
 
 
 h1{
-    text-shadow: 1px 1px black;
-    color: rgb(70, 70, 70);
+    color:white;
+}
+
+body{
+    background-color: black;
 }
 
 .playstation,.xbox,.steam{
@@ -14,7 +17,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-weight: bold;
-    color: rgb(45, 45, 45);
+    color: rgba(255, 255, 255, 0.872);
     margin-bottom: 30px;
 }
 
