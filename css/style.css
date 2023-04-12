@@ -29,6 +29,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation:backInRight;
+    animation-duration: 1s;
   }
   
   nav i {
@@ -39,6 +41,7 @@ header {
     text-align: center;
     width: 43px;
     transition: 0.5s;
+    
     
   }
 
@@ -79,6 +82,8 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
+    animation:heartBeat;
+    animation-duration: 1s;
 }
 
 .compre h1{
@@ -124,6 +129,8 @@ section.categoria{
     justify-content: space-evenly;
     font-weight: bold;
     color: rgb(67, 67, 67);
+    animation:backInRight;
+    animation-duration: 1s;
 }
 
 section.categoria2{
@@ -143,6 +150,8 @@ section.categoria2{
     justify-content: space-evenly;
     font-weight: bold;
     color: rgb(67, 67, 67);
+    animation:backInRight;
+    animation-duration: 1s;
 }
 
 
