@@ -6,6 +6,8 @@
         width: 170px;
         height: 210px;
        }
+    
+    
  
     nav i{
         width: 40px;
@@ -62,6 +64,11 @@
         height: 210px;
        }
 
+    .jogos p{
+        font-size: 1.1em;
+        
+    }
+
     nav i{
         width: 50px;
         padding: 10px;
@@ -91,9 +98,6 @@
        
     }
 
-    .jogos p{
-        font-size: 1.4em;
-    }
 
     .jogos img:hover{
         margin-top: 5px;
