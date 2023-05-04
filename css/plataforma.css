@@ -15,18 +15,17 @@ body{
 .playstation,.xbox,.steam{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.872);
     margin-bottom: 30px;
+
 }
-
-
 
 .jogos img{
     width: 95px;
     height: 120px;
-    margin: 5px;
+    margin: 3px;
     border-radius: 10px;
     border: none;
     padding: 2px;
@@ -36,7 +35,6 @@ body{
 }
 
 .jogos img:hover{
-    margin-top: 0px;
     transition: 0.5s;
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.107);
 }
@@ -64,15 +62,15 @@ body{
  @media screen and (min-width:768px) and (max-width:992px) {
 
     .jogos img{
-        width: 150px;
-        height: 190px;
+        width: 140px;
+        height: 170px;
        }
 }
 
  @media screen and (min-width:992px) {
 
     .jogos img{
-        width: 170px;
-        height: 210px;
+        width: 140px;
+        height: 170px;
        }
 }

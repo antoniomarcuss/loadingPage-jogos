@@ -3,13 +3,12 @@
 @media screen and (min-width:560px) and (max-width:992px) {
 
     .jogos img{
-        width: 170px;
-        height: 210px;
-        margin: 5px;
+        width: 140px;
+        height: 170px;
+        margin: 2px;
+    
        }
     
-    
- 
     nav i{
         width: 40px;
         padding: 8px;
@@ -61,8 +60,8 @@
 @media screen and (min-width:992px) {
 
     .jogos img{
-        width: 170px;
-        height: 210px;
+        width: 160px;
+        height: 200px;
        }
 
     .jogos p{
