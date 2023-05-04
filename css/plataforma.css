@@ -36,7 +36,7 @@ body{
 
 .jogos img:hover{
     transition: 0.5s;
-    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.107);
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.587);
 }
 
 .jogos p{
@@ -65,6 +65,12 @@ body{
         width: 140px;
         height: 170px;
        }
+
+       .jogos img:hover{
+        animation: pulse;
+        animation-duration: 1s;
+        box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.587);
+    }
 }
 
  @media screen and (min-width:992px) {
@@ -73,4 +79,10 @@ body{
         width: 140px;
         height: 170px;
        }
+
+    .jogos img:hover{
+        animation: pulse;
+        animation-duration: 1s;
+        box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.587);
+    }
 }

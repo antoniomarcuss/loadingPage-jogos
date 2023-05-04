@@ -42,8 +42,8 @@
     }
 
     .jogos img:hover{
-        margin-top: 5px;
-        transition: 0.3s;
+        animation: pulse;
+        animation-duration: 1s;
         box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.587);
     }
 
@@ -62,6 +62,7 @@
     .jogos img{
         width: 160px;
         height: 200px;
+        margin: 2px;
        }
 
     .jogos p{
@@ -100,8 +101,8 @@
 
 
     .jogos img:hover{
-        margin-top: 5px;
-        transition: 0.3s;
+        animation: pulse;
+        animation-duration: 1s;
         box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.587);
     }
 
