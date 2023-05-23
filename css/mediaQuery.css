@@ -39,9 +39,13 @@
         font-size: 1.1em;
     }
 
+    .jogos img{
+        margin: 10px;
+    }
+
     .jogos img:hover{
-        animation: pulse;
-        animation-duration: 1s;
+        transform:scale(1.1,1.1);
+        transition: 0.3s;
         box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.587);
     }
 
@@ -97,9 +101,13 @@
     }
 
 
+    .jogos img{
+        margin: 10px;
+    }
+
     .jogos img:hover{
-        animation: pulse;
-        animation-duration: 1s;
+        transform:scale(1.1,1.1);
+        transition: 0.3s;
         box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.587);
     }
 
